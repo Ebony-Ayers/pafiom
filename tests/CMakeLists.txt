@@ -4,7 +4,7 @@ cmake_minimum_required(VERSION 3.15)
 project(pafiom CXX)
 
 #set the name of the primary target for future reference. This will only exist in the "scope" of thise file
-set(primary_target_name library_template_test)
+set(primary_target_name pafiom_test)
 
 include(cmake/StandardProjectSettings.cmake)
 include(cmake/PreventInSourceBuilds.cmake)
@@ -65,7 +65,7 @@ add_subdirectory(src)
 target_link_libraries(${primary_target_name} PRIVATE ${project_options_library})
 
 add_subdirectory(../ main_src/)
-target_link_libraries(${primary_target_name} PUBLIC library_template)
+target_link_libraries(${primary_target_name} PUBLIC pafiom)
 
 #Speeds up compilation
 option(ENABLE_UNITY "Enable Unity builds of projects" OFF)

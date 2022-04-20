@@ -1,0 +1,3 @@
+[submodule "lib/fast-thread-syncronization"]
+	path = lib/fast-thread-syncronization
+	url = https://github.com/Ebony-Ayers/fast-thread-syncronization
