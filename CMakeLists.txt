@@ -1,4 +1,7 @@
 cmake_minimum_required(VERSION 3.15)
+if(TARGET pafiom)
+    return()
+endif()
 
 # Set the project name to your project name, "my project" isn't very descriptive as a project can contain multiple distinct targets all grouped under an umbrella
 project(fsds CXX)
