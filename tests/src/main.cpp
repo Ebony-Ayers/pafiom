@@ -1,9 +1,10 @@
 #include <iostream>
 
-#include "../../src/library.hpp"
+#include "../../src/pafiom.hpp"
 
 int main(int /*argc*/, const char** /*argv*/)
 {
-	foo();
+	std::cout << "hello world" << std::endl;
+	
 	return 0;
 }
