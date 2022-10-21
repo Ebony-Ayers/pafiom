@@ -26,6 +26,6 @@
 #ifndef PAFIOM_READ_SIZE
 	#define PAFIOM_READ_SIZE 4096
 #endif
-#ifndef PAFIOM_NUM_THREADS
-	#define PAFIOM_NUM_THREADS 1
+#ifndef PAFIOM_MAX_THREADS
+	#define PAFIOM_MAX_THREADS 1
 #endif
